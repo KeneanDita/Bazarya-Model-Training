@@ -8,7 +8,7 @@ It serves as the **ML backend** for the [Bazarya Flask app](https://github.com/k
 
 ## Purpose
 
-To forecast daily prices of agricultural and food products using time series models (e.g., ARIMA, LSTM). This repo ensures:
+To forecast daily prices of agricultural and food products using time series models (e.g., ARIMA, LSTM, ). This repo ensures:
 
 - Clean and structured market price data
 - Automated preprocessing and feature engineering
@@ -39,7 +39,9 @@ These metrics are logged during training and exported in `logs/`.
 
 ## Integration with Bazarya Flask App
 
-Trained models from this repo are loaded in the [Bazarya Web App](https://github.com/yourusername/bazarya) for live price prediction.
+First Run the notebooks and export all the 240 models and save them in folder named "models" to use them in the [Bazarya Flask app](https://github.com/keneandita/bazarya) repo.
+
+Trained models from this repo are loaded in the [Bazarya Web App](https://github.com/keneandita/bazarya) for live price prediction.
 
 Ensure the model file paths in the Flask repo point to exported files from this repo.
 
