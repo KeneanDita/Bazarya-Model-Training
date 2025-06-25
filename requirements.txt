@@ -1,0 +1,13 @@
+# This file lists the required packages for the project.
+numpy==1.23.5
+pandas==1.5.3
+matplotlib==3.6.2
+seaborn==0.12.2
+joblib==1.2.0
+logging
+warnings
+scikit-learn==1.2.0
+tensorflow==2.11.0
+statsmodels==0.13.2
+pmdarima==1.8.5
+prophet==1.0.1
