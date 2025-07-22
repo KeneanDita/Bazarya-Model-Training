@@ -17,16 +17,6 @@ To forecast daily prices of agricultural and food products using time series mod
 
 ---
 
-## Evaluation Metrics
-
-- RMSE (Root Mean Square Error)
-- MAE (Mean Absolute Error)
-- MAPE (Mean Absolute Percentage Error)
-
-These metrics are logged during training and exported in `logs/`.
-
----
-
 ## Planned Enhancements
 
 - ✅ Support for multiple markets per product
