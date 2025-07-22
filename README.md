@@ -37,7 +37,7 @@ These metrics are logged during training and exported in `logs/`.
 
 ---
 
-## Integration with Bazarya Flask App
+## Integration with Bazarya Flask App(on the Bazarya app)
 
 First Run the notebooks and export all the 240 models and save them in folder named "models" to use them in the [Bazarya Flask app](https://github.com/keneandita/bazarya) repo.
 
